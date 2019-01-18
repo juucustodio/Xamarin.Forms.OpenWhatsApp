@@ -4,23 +4,14 @@ namespace Xamarin.Forms.OpenWhatsApp
 {
     public class Chat
     {
-        string PhoneNumber;
-        string Message;
-
-        public Chat(string _phoneNumber, string _message = null)
-        {
-            PhoneNumber = _phoneNumber;
-            Message = _message;
-        }
-
-        public void Open()
+        public static void Open(string phoneNumber, string message = null)
         {
             try
             {
-                var uriString = "whatsapp://send?phone=" + PhoneNumber;
+                var uriString = "whatsapp://send?phone=" + phoneNumber;
 
-                if (!String.IsNullOrWhiteSpace(Message))
-                    uriString += "&text=" + Message;
+                if (!string.IsNullOrWhiteSpace(message))
+                    uriString += "&text=" + message;
 
                 Device.OpenUri(new Uri(uriString));
 

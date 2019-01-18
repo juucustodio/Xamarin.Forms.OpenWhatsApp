@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Open WhatsApp to send message to specific number from your Xamarin.Forms application using this package</Description>
+    <Authors>Juliano Custódio</Authors>
+    <PackageProjectUrl>https://github.com/juucustodio/Xamarin.Forms.OpenWhatsApp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/juucustodio/Xamarin.Forms.OpenWhatsApp</RepositoryUrl>
+    <PackageReleaseNotes>Initial Version</PackageReleaseNotes>
+    <Company />
+    <PackageLicenseUrl>https://github.com/juucustodio/Xamarin.Forms.OpenWhatsApp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/juucustodio/Xamarin.Forms.OpenWhatsApp/master/Resources/sendWhatsApp.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
