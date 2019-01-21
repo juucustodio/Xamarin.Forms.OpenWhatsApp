@@ -31,3 +31,15 @@ Use the Open method
   Chat.Open("Phone Number", "Message");
 
 ```
+
+### iOS
+
+Add this key in the Info.plist
+
+```txt
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+     		<string>whatsapp</string>
+	</array>
+ ```
