@@ -10,6 +10,9 @@
     <Company />
     <PackageLicenseUrl>https://github.com/juucustodio/Xamarin.Forms.OpenWhatsApp/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/juucustodio/Xamarin.Forms.OpenWhatsApp/master/Resources/sendWhatsApp.png</PackageIconUrl>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
