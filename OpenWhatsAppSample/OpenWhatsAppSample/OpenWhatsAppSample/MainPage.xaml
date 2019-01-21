@@ -5,10 +5,7 @@
              x:Class="OpenWhatsAppSample.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Send WhatsApp" Clicked="Send"/>
     </StackLayout>
 
 </ContentPage>
